@@ -1,0 +1,27 @@
+// BLACKOUT RUN scene palette variants (GBA BGR555)
+#ifndef BLACKOUT_RUN_PALETTE_VARIANTS_H
+#define BLACKOUT_RUN_PALETTE_VARIANTS_H
+
+#define BLACKOUT_RUN_SCENE_VARIANT_COUNT 5
+#define BLACKOUT_RUN_PALETTE_BANK_COUNT 5
+#define BLACKOUT_RUN_COLORS_PER_BANK 16
+
+enum blackout_run_scene_variant {
+    BLACKOUT_RUN_SCENE_DAY = 0,
+    BLACKOUT_RUN_SCENE_DUSK = 1,
+    BLACKOUT_RUN_SCENE_NIGHT = 2,
+    BLACKOUT_RUN_SCENE_BLACKOUT = 3,
+    BLACKOUT_RUN_SCENE_RAIN = 4
+};
+
+enum blackout_run_palette_bank {
+    BLACKOUT_RUN_PALETTE_CITY = 0,
+    BLACKOUT_RUN_PALETTE_COURIER = 1,
+    BLACKOUT_RUN_PALETTE_PEOPLE = 2,
+    BLACKOUT_RUN_PALETTE_TRAFFIC = 3,
+    BLACKOUT_RUN_PALETTE_HUD = 4
+};
+
+extern const unsigned short blackout_run_scene_palettes[5][5][16];
+
+#endif

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111a">
+  <meta name="description" content="BLACKOUT RUN, a complete three-shift bicycle courier arcade game for Game Boy Advance.">
+  <title>BLACKOUT RUN — The city copies you</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="BLACKOUT RUN home">BR<span>87</span></a>
+    <nav aria-label="Page navigation">
+      <a href="#game">Game</a>
+      <a href="#memory">Route memory</a>
+      <a href="#controls">Controls</a>
+    </nav>
+    <a class="mini-download" href="downloads/blackout-run.gba" download>ROM ↓</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="game">
+      <div class="hero-copy">
+        <p class="eyebrow">A complete Game Boy Advance arcade game</p>
+        <h1><span>BLACKOUT</span><em>RUN</em></h1>
+        <p class="lede">Ride the fastest line through Port Meridian. Then survive the traffic that copies it.</p>
+        <div class="actions">
+          <a class="button primary" href="downloads/blackout-run.gba" download>Download the ROM</a>
+          <a class="button secondary" href="#controls">Read the dispatch card</a>
+        </div>
+        <dl class="release-stats">
+          <div><dt>Format</dt><dd>GBA ROM</dd></div>
+          <div><dt>Campaign</dt><dd>3 shifts</dd></div>
+          <div><dt>Screen</dt><dd>240×160</dd></div>
+        </dl>
+      </div>
+      <figure class="screen hero-screen">
+        <div class="screen-frame">
+          <img src="assets/screens/06-blackout-run.png" width="240" height="160" alt="Native GBA gameplay during the blackout shift, with a bicycle courier, delivery marker, cars, and a learned line of pedestrians crossing the city grid.">
+        </div>
+        <figcaption><span>SHIFT 03</span> Native mGBA capture · blackout palette</figcaption>
+      </figure>
+    </section>
+
+    <section class="rule" aria-labelledby="rule-title">
+      <p class="section-number">01 / THE RULE</p>
+      <h2 id="rule-title">Your shortcut becomes <strong>their commute.</strong></h2>
+      <p>Every completed delivery is written into Route Memory. The city copies successful streets, crowds thicken, and the quick line you taught in the morning can seize up by night. Ring the bell for a gap. Brake for the corner. Or teach the city somewhere new.</p>
+    </section>
+
+    <section class="sequence" id="memory" aria-label="How route learning changes the game">
+      <article>
+        <p class="sequence-index">A</p>
+        <div class="screen small"><img src="assets/screens/03-first-run.png" width="240" height="160" alt="First-shift GBA gameplay showing the courier, package marker, cars, and an open street grid before routes become crowded."></div>
+        <h3>Ride a line</h3>
+        <p>Pick up automatically, read the street grid, and deliver before dispatch closes the job.</p>
+      </article>
+      <article>
+        <p class="sequence-index">B</p>
+        <div class="screen small"><img src="assets/screens/05-route-memory.png" width="240" height="160" alt="Route Memory screen showing a bright copied route turning across a compressed city grid, with delivery and missed-job totals."></div>
+        <h3>Leave a memory</h3>
+        <p>The route report preserves your line and measures how much of it the city copied.</p>
+      </article>
+      <article>
+        <p class="sequence-index">C</p>
+        <div class="screen small"><img src="assets/screens/06-blackout-run.png" width="240" height="160" alt="Blackout gameplay where pedestrians and another cyclist occupy the learned route while the courier continues deliveries."></div>
+        <h3>Meet the city</h3>
+        <p>Copied foot and cycle traffic turns yesterday’s clean shortcut into today’s moving obstacle.</p>
+      </article>
+    </section>
+
+    <section class="dispatch" id="controls">
+      <div>
+        <p class="section-number">02 / DISPATCH CARD</p>
+        <h2>One bicycle.<br>No upgrade tree.</h2>
+        <p>The only thing that levels up is the city’s memory of you.</p>
+      </div>
+      <div class="controls" aria-label="Game controls">
+        <div><kbd>✣</kbd><span><b>D-pad</b>Ride and steer</span></div>
+        <div><kbd>A</kbd><span><b>Bell</b>Scatter a crowd briefly</span></div>
+        <div><kbd>B</kbd><span><b>Brake</b>Cut speed for tight turns</span></div>
+        <div><kbd>START</kbd><span><b>Pause</b>Hold the shift</span></div>
+        <div><kbd>SELECT</kbd><span><b>Memory</b>Inspect copied routes</span></div>
+      </div>
+    </section>
+
+    <section class="finale">
+      <figure class="screen title-screen"><img src="assets/screens/01-title.png" width="240" height="160" alt="BLACKOUT RUN title screen with Story Shift, Free Ride, and How to Play options over a night city grid."></figure>
+      <div>
+        <p class="section-number">03 / NIGHT SERVICE</p>
+        <h2>Get the power home before dawn.</h2>
+        <p>Two morning jobs. Two rush-hour jobs. One final blackout shift through a city that already knows your habits. Finish the campaign, chase a cleaner line in Free Ride, then run it again.</p>
+        <a class="button primary" href="downloads/blackout-run.gba" download>Take the night shift</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>BLACKOUT RUN <span>·</span> built for original GBA hardware constraints</p>
+    <p>ROM and native captures verified with devkitARM + mGBA</p>
+  </footer>
+</body>
+</html>
