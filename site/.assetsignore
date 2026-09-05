@@ -1,0 +1,12 @@
+.git/
+.wrangler/
+.assetsignore
+worker.js
+wrangler.jsonc
+README.md
+*** Add File: /tmp/hush-below-public-release/site/worker.js
+export default {
+  async fetch(request, env) {
+    return env.ASSETS.fetch(request);
+  },
+};
