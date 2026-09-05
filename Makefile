@@ -53,7 +53,6 @@ site: verify
 	mkdir -p site/assets/screens
 	cp $(TARGET).gba site/downloads/blackout-run.gba
 	chmod 644 site/downloads/blackout-run.gba
-	cp validation/native/*.png site/assets/screens/
 
 clean:
 	rm -rf $(BUILD) $(TARGET).elf $(TARGET).gba
